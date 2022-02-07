@@ -1,0 +1,30 @@
+_id: req_wrk_b6accb559186465da8ae83633424e40480d56b17
+type: Request
+parentId: wrk_b6accb559186465da8ae83633424e404
+modified: 1644210621041
+created: 1644208673818
+url: "{{ base_url }}/"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "url": "string",
+      "password": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_525045650da54cee8d4818cd946cab69
+authentication: {}
+metaSortKey: -1644208673818
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

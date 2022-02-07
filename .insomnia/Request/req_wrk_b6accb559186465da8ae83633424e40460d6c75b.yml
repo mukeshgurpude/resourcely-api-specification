@@ -1,0 +1,24 @@
+_id: req_wrk_b6accb559186465da8ae83633424e40460d6c75b
+type: Request
+parentId: wrk_b6accb559186465da8ae83633424e404
+modified: 1644208673811
+created: 1644208673811
+url: "{{ base_url }}/{{ code }}"
+name: /{code}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: password
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1644208673811
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

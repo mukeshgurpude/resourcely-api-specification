@@ -1,0 +1,18 @@
+_id: env_env_e9f7a3919d72716724533d57a4df8241699bf49d_sub
+type: Environment
+parentId: env_e9f7a3919d72716724533d57a4df8241699bf49d
+modified: 1644209961083
+created: 1644208673824
+name: OpenAPI env
+data:
+  scheme: http
+  base_path: /api/shortner
+  host: localhost:8000
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1644208673824
