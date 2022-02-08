@@ -1,18 +1,21 @@
 _id: env_env_e9f7a3919d72716724533d57a4df8241699bf49d_sub
 type: Environment
 parentId: env_e9f7a3919d72716724533d57a4df8241699bf49d
-modified: 1644209961083
+modified: 1644348618544
 created: 1644208673824
 name: OpenAPI env
 data:
   scheme: http
-  base_path: /api/shortner
+  base_path: /api/v1/shortner
   host: localhost:8000
+  code: "{% response 'body', 'req_wrk_b6accb559186465da8ae83633424e40480d56b17',
+    'b64::JC5zaG9ydGNvZGU=::46b', 'no-history', 60 %}"
 dataPropertyOrder:
   "&":
     - scheme
     - base_path
     - host
+    - code
 color: null
 isPrivate: false
 metaSortKey: 1644208673824

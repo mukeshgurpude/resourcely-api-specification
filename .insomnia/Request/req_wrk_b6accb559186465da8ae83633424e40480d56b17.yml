@@ -1,7 +1,7 @@
 _id: req_wrk_b6accb559186465da8ae83633424e40480d56b17
 type: Request
 parentId: wrk_b6accb559186465da8ae83633424e404
-modified: 1644210621041
+modified: 1644349103658
 created: 1644208673818
 url: "{{ base_url }}/"
 name: /
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-      "url": "string",
-      "password": "string"
+      "original_url": "https://google.co.in",
+      "password": "text"
     }
 parameters: []
 headers:

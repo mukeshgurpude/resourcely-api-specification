@@ -1,11 +1,14 @@
 _id: ut_25d5465974d64530993f375c2860ebd0
 type: UnitTest
 parentId: uts_49e21d6315a84eedb9cc6ccee2031a91
-modified: 1644210607369
+modified: 1644346244109
 created: 1644209793634
 requestId: req_wrk_b6accb559186465da8ae83633424e40480d56b17
 name: Able to shorten urls
-code: |-
+code: |
   const response1 = await insomnia.send();
-  expect(response1.status, 'Invalid status code').to.equal(200);
-  expect(response1.body, 'Response body is invalid').to.type('object')
+  console.log(response1)
+  expect(response1.headers['content-type']).to.equal('application/json')
+  const data = JSON.parse(response1.data)
+  expect(data).to.have.property('original_url')
+  expect(data).to.have.property('shortcode')
