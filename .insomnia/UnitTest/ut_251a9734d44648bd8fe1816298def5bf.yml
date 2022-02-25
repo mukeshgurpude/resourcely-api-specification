@@ -1,0 +1,12 @@
+_id: ut_251a9734d44648bd8fe1816298def5bf
+type: UnitTest
+parentId: uts_49e21d6315a84eedb9cc6ccee2031a91
+modified: 1645545593760
+created: 1644349585629
+requestId: req_722c01bcdf0344788fb568c231d76880
+name: Returns Url data in Json format
+code: |
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const data = JSON.parse(response1.data)
+  expect(data).to.have.property('original_url')

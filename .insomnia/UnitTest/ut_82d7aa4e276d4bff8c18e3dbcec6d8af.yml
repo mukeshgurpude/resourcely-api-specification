@@ -1,0 +1,10 @@
+_id: ut_82d7aa4e276d4bff8c18e3dbcec6d8af
+type: UnitTest
+parentId: uts_49e21d6315a84eedb9cc6ccee2031a91
+modified: 1644349713876
+created: 1644349665457
+requestId: req_b18d04fd562e4d0399a141defc5eff7d
+name: url redirection
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(302);

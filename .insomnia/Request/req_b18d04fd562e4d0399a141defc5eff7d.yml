@@ -1,0 +1,25 @@
+_id: req_b18d04fd562e4d0399a141defc5eff7d
+type: Request
+parentId: fld_4ad5896167e9407abaed43ba6fb9affa
+modified: 1644349553697
+created: 1644349461603
+url: "{{ base_url }}/{{ _.unencrypted_code }}"
+name: Url redirection
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_eb6f7e85b2ea41329807439ee194e208
+    name: mode
+    value: redirect
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1644278988369.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

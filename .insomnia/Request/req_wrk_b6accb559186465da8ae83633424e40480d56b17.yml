@@ -1,18 +1,17 @@
 _id: req_wrk_b6accb559186465da8ae83633424e40480d56b17
 type: Request
-parentId: wrk_b6accb559186465da8ae83633424e404
-modified: 1644349103658
+parentId: fld_4ad5896167e9407abaed43ba6fb9affa
+modified: 1645692487191
 created: 1644208673818
 url: "{{ base_url }}/"
-name: /
+name: Able to shorten urls without password
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "original_url": "https://google.co.in",
-      "password": "text"
+      "original_url": "https://google.co.in"
     }
 parameters: []
 headers:
@@ -20,7 +19,7 @@ headers:
     value: application/json
     id: pair_525045650da54cee8d4818cd946cab69
 authentication: {}
-metaSortKey: -1644208673818
+metaSortKey: -1644278988344.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

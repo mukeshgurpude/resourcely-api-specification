@@ -1,7 +1,7 @@
 _id: spc_b888d26be1284cee8dd30100253b8c99
 type: ApiSpec
 parentId: wrk_b6accb559186465da8ae83633424e404
-modified: 1644348494591
+modified: 1645822372529
 created: 1644206321287
 fileName: Url Shortner API
 contents: |
@@ -91,8 +91,8 @@ contents: |
 
   servers:
     - description: Local development server
-      url: http://localhost:8000/api/v1/shortner
-      
+      url: http://localhost:8000/api/v1/
+
     - description: Production Server
       url: ''
 

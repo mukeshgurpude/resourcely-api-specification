@@ -1,0 +1,25 @@
+_id: req_4abe792d3d46485dac4b97431f06c4c5
+type: Request
+parentId: fld_4ad5896167e9407abaed43ba6fb9affa
+modified: 1644349559764
+created: 1644349468545
+url: "{{ base_url }}/{{ _.unencrypted_code }}"
+name: Text format
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_eb6f7e85b2ea41329807439ee194e208
+    name: mode
+    value: text
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1644278988357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

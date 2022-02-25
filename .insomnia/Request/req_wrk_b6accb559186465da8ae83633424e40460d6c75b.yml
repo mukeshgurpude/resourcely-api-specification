@@ -1,25 +1,20 @@
 _id: req_wrk_b6accb559186465da8ae83633424e40460d6c75b
 type: Request
 parentId: wrk_b6accb559186465da8ae83633424e404
-modified: 1644349170761
-created: 1644208673811
-url: "{{ base_url }}/{{code}}"
+modified: 1645692432605
+created: 1645692432605
+url: "{{ base_url }}/{{ code }}"
 name: /{code}
 description: ""
 method: GET
 body: {}
-parameters:
-  - id: pair_eb6f7e85b2ea41329807439ee194e208
-    name: mode
-    value: redirect
-    description: ""
+parameters: []
 headers:
   - name: password
-    disabled: false
-    value: text
-    id: pair_64f7deb139194cce96df022a3c03964c
+    disabled: true
+    value: string
 authentication: {}
-metaSortKey: -1644208673811
+metaSortKey: -1645692432605
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
